@@ -18,7 +18,8 @@ def post_list1(request):
     name = '공유'
     return HttpResponse('''
     <h1>Hi this is Bligh</h1>
-    <p>{name}</p>'''.format(name=name))
+    <p>{name}</p>
+    '''.format(name=name))
 
 
 def post_list2(request):
