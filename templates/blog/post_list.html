@@ -1,9 +1,14 @@
+<body>
 <h1>Hello World</h1>
 
 <ul>
     <li>Hi</li>
     <li>This is Sangyeon Park</li>
 </ul>
+<form action="" method="get">
+    <input type="text" name="q" value = "{{ q }}">
+    <input type="submit" alue="검색" >
+</form>
 
 {% for post in post_list %}
     <li>
@@ -13,3 +18,5 @@
         {{ post.updated_at }}
     </li>
 {% endfor %}
+
+</body>
