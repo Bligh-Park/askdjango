@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'dojo.apps.DojoConfig',
     'blog',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
